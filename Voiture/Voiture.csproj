@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{F9B20F02-9771-45F4-B68E-62FE45F3B5B9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Vvoiture</RootNamespace>
-    <AssemblyName>Vvoiture</AssemblyName>
+    <RootNamespace>Voiture</RootNamespace>
+    <AssemblyName>Voiture</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
