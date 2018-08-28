@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace VoituresEF
 {
-    class Segment
+    [Table("Segment")]
+    public class Segment
     {
+        public int Id { get; set; }
+        public string Nom { get; set; }
     }
 }

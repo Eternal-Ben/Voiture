@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace VoituresEF
 {
-    class Marque
+    [Table("Marque")]
+    public class Marque
     {
+        [Column("IdMarque")]
+        public int Id { get; set; }
+        [Column("Libelle")]
+        [Required]
+        [MinLength]
+        public string Nom { get; set; }
+        public virtual ICollection<Modele>
     }
 }
