@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voiture", "Vvoiture\Voiture.csproj", "{F9B20F02-9771-45F4-B68E-62FE45F3B5B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voiture", "Voiture\Voiture.csproj", "{F9B20F02-9771-45F4-B68E-62FE45F3B5B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoituresEF", "VoituresEF\VoituresEF.csproj", "{98C19BED-C736-47BB-9142-DFC00C35C58B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F9B20F02-9771-45F4-B68E-62FE45F3B5B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9B20F02-9771-45F4-B68E-62FE45F3B5B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9B20F02-9771-45F4-B68E-62FE45F3B5B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98C19BED-C736-47BB-9142-DFC00C35C58B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98C19BED-C736-47BB-9142-DFC00C35C58B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98C19BED-C736-47BB-9142-DFC00C35C58B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98C19BED-C736-47BB-9142-DFC00C35C58B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

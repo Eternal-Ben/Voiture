@@ -300,7 +300,9 @@ namespace Voitures
 
         {
 
-            var chaineConnexion = ConfigurationManager.ConnectionStrings["ConnexionDB"].ConnectionString;
+            var chaineConnexion = ConfigurationManager
+                                    .ConnectionStrings["ConnexionDB"]
+                                    .ConnectionString;
 
             return new SqlConnection(chaineConnexion);
 
